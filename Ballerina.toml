@@ -1,0 +1,8 @@
+[package]
+org = "demo"
+name = "loan_processing_etl_demo"
+version = "0.1.0"
+title = "Loan Processing ETL Demo"
+
+[build-options]
+sticky = true

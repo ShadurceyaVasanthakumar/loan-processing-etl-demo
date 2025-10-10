@@ -1,0 +1,151 @@
+application_id,dob,city,amount,total_price,monthly_income,credit_score,branch,importer_category,importer_name,vehicle_brand,vehicle_model,vehicle_category,fuel_type,created_at,status
+A001,1986-05-12,Colombo,5000000,6500000,250000,720,Colombo,Authorized Agent,Toyota Lanka,Toyota,Yaris,Car,Petrol,2025-09-01,approved
+A002,1992-11-02,Gampaha,3000000,4200000,180000,680,Gampaha,Importing Company,Indra Traders,BYD,Seal,Car,Electric,2025-09-01,rejected
+A003,1979-01-20,Kandy,7500000,9000000,350000,780,Kandy,Authorized Agent,Stafford Motors,Honda,CR-V,SUV,Hybrid,2025-09-02,approved
+A004,1995-07-30,Galle,2500000,3500000,150000,650,Galle,Personal Importer,Kamal Perera,Suzuki,Wagon R,Car,Petrol,2025-09-02,rejected
+A005,1988-03-15,Jaffna,12000000,15000000,500000,810,Jaffna,Authorized Agent,Prestige Automobile,BMW,iX,SUV,Electric,2025-09-03,approved
+A006,1990-09-05,Colombo,4000000,5500000,200000,690,Nugegoda,Importing Company,Ideal Motors,Mahindra,XUV700,SUV,Diesel,2025-09-04,approved
+A007,1998-06-25,Matara,800000,1200000,90000,610,Matara,Authorized Agent,David Pieris Motor,Bajaj,Pulsar,Motorcycle,Petrol,2025-09-05,rejected
+A008,1985-04-10,Negombo,6000000,7800000,300000,740,Negombo,Authorized Agent,Kia Motors Lanka,Kia,Sportage,SUV,Petrol,2025-09-05,approved
+A009,1993-12-01,Kandy,9500000,11000000,450000,790,Kandy,Importing Company,Sena Auto,Mercedes-Benz,C-Class,Car,Hybrid,2025-09-06,approved
+A010,1991-02-18,Colombo,3200000,4000000,170000,660,Borella,Personal Importer,Nimali Silva,Toyota,Vitz,Car,Petrol,2025-09-07,rejected
+A011,2000-08-08,Galle,2800000,3800000,140000,630,Galle,Importing Company,United Motors,Mitsubishi,Attrage,Car,Petrol,2025-09-08,rejected
+A012,1982-10-22,Moratuwa,11000000,14000000,480000,820,Moratuwa,Authorized Agent,Hyundai Lanka,Hyundai,Ioniq 5,SUV,Electric,2025-09-08,approved
+A013,1996-05-14,Kurunegala,3500000,4500000,160000,670,Kurunegala,Authorized Agent,AMW,Suzuki,Swift,Car,Petrol,2025-09-09,approved
+A014,1989-11-30,Colombo,6500000,8000000,320000,750,Rajagiriya,Importing Company,Indra Traders,Toyota,Raize,SUV,Petrol,2025-09-10,approved
+A015,1994-01-25,Anuradhapura,5500000,7200000,280000,710,Anuradhapura,Authorized Agent,Toyota Lanka,Toyota,Corolla Cross,SUV,Hybrid,2025-09-11,approved
+A016,1987-07-07,Kandy,2000000,3000000,130000,640,Kandy,Personal Importer,Ravi Fernando,Honda,Fit,Car,Hybrid,2025-09-12,rejected
+A017,1999-03-19,Gampaha,900000,1500000,100000,620,Gampaha,Authorized Agent,TVS Lanka,TVS,Apache,Motorcycle,Petrol,2025-09-13,rejected
+A018,1984-09-12,Colombo,15000000,18000000,600000,850,Colombo,Authorized Agent,Prestige Automobile,Audi,Q5,SUV,Diesel,2025-09-14,approved
+A019,1992-06-08,Nuwara Eliya,4500000,6000000,220000,700,Nuwara Eliya,Importing Company,Sena Auto,Perodua,Axia,Car,Petrol,2025-09-15,rejected
+A020,1980-12-28,Jaffna,8000000,10000000,400000,770,Jaffna,Authorized Agent,Kia Motors Lanka,Kia,Seltos,SUV,Petrol,2025-09-16,approved
+A021,1997-02-15,Colombo,7000000,8500000,330000,760,Bambalapitiya,Importing Company,Indra Traders,Toyota,CHR,SUV,Hybrid,2025-09-17,approved
+A022,1983-08-20,Trincomalee,6000000,7500000,290000,730,Trincomalee,Authorized Agent,Stafford Motors,Honda,Vezel,SUV,Hybrid,2025-09-18,approved
+A023,1995-04-05,Badulla,3800000,5000000,190000,680,Badulla,Authorized Agent,AMW,Nissan,Kicks,SUV,Petrol,2025-09-19,rejected
+A024,1990-10-10,Colombo,9000000,12000000,420000,800,Dehiwala,Authorized Agent,Hyundai Lanka,Hyundai,Tucson,SUV,Diesel,2025-09-20,approved
+A025,1986-06-18,Ratnapura,4200000,5800000,210000,690,Ratnapura,Personal Importer,Sunil Rathnayake,Mitsubishi,Mirage,Car,Petrol,2025-09-21,rejected
+A026,1993-01-01,Gampaha,10000000,13500000,470000,830,Wattala,Importing Company,Sena Auto,MG,ZS EV,SUV,Electric,2025-09-22,approved
+A027,1998-09-09,Kandy,2200000,3200000,145000,650,Peradeniya,Authorized Agent,Toyota Lanka,Toyota,Passo,Car,Petrol,2025-09-23,rejected
+A028,1981-05-29,Galle,18000000,22000000,700000,840,Galle,Authorized Agent,Prestige Automobile,BMW,5 Series,Car,Diesel,2025-09-24,approved
+A029,1994-11-11,Colombo,5000000,6300000,260000,710,Kotte,Importing Company,Ideal Motors,SsangYong,Tivoli,SUV,Petrol,2025-09-25,approved
+A030,1988-02-02,Matale,4800000,6500000,240000,700,Matale,Authorized Agent,Kia Motors Lanka,Kia,Sonet,SUV,Petrol,2025-09-26,approved
+A031,1996-07-23,Colombo,3500000,4800000,180000,670,Mount Lavinia,Personal Importer,Anusha Kumari,Suzuki,Alto,Car,Petrol,2025-09-27,rejected
+A032,1991-03-12,Negombo,7500000,9500000,360000,780,Negombo,Authorized Agent,Stafford Motors,Honda,Civic,Car,Petrol,2025-09-28,approved
+A033,1985-12-04,Kalutara,13000000,16000000,550000,810,Kalutara,Importing Company,Indra Traders,Toyota,Harrier,SUV,Hybrid,2025-09-29,approved
+A034,1992-08-16,Kandy,6200000,7700000,310000,740,Katugastota,Authorized Agent,Toyota Lanka,Toyota,Aqua,Car,Hybrid,2025-09-30,approved
+A035,1997-10-03,Colombo,8500000,10500000,410000,790,Wellawatte,Authorized Agent,Hyundai Lanka,Hyundai,Kona,SUV,Electric,2025-10-01,approved
+A036,1989-04-21,Galle,950000,1400000,110000,630,Galle,Authorized Agent,David Pieris Motor,Bajaj,Discover,Motorcycle,Petrol,2025-10-01,rejected
+A037,1990-06-06,Batticaloa,4000000,5200000,200000,690,Batticaloa,Importing Company,United Motors,Mitsubishi,Xpander,Van,Petrol,2025-10-02,approved
+A038,1984-02-14,Panadura,5800000,7000000,270000,720,Panadura,Personal Importer,Dinesh Weerasinghe,Toyota,Premio,Car,Petrol,2025-10-02,rejected
+A039,1995-12-12,Jaffna,3000000,4000000,160000,660,Jaffna,Authorized Agent,AMW,Suzuki,Celerio,Car,Petrol,2025-10-03,rejected
+A040,1987-09-01,Colombo,16000000,20000000,650000,820,Colombo,Authorized Agent,Prestige Automobile,Mercedes-Benz,GLB,SUV,Petrol,2025-10-03,approved
+A041,1993-05-24,Ampara,5000000,6800000,250000,710,Ampara,Importing Company,Ideal Motors,Mahindra,KUV100,Car,Petrol,2025-10-04,approved
+A042,1982-11-08,Kandy,7000000,9000000,340000,750,Kandy,Authorized Agent,Toyota Lanka,Toyota,Hiace,Van,Diesel,2025-10-04,approved
+A043,1998-01-30,Colombo,8000000,9800000,380000,770,Nawala,Importing Company,Sena Auto,Haval,Jolion,SUV,Hybrid,2025-10-05,approved
+A044,1996-03-03,Kegalle,2500000,3500000,150000,650,Kegalle,Personal Importer,Fathima Rizwan,Perodua,Bezza,Car,Petrol,2025-10-05,rejected
+A045,1988-10-17,Gampaha,11500000,14500000,520000,800,Ja-Ela,Authorized Agent,Kia Motors Lanka,Kia,EV6,SUV,Electric,2025-10-06,approved
+A046,1994-07-13,Polonnaruwa,4300000,5500000,215000,690,Polonnaruwa,Authorized Agent,Stafford Motors,Honda,Grace,Car,Hybrid,2025-10-06,approved
+A047,1986-09-27,Colombo,9500000,12500000,430000,780,Borella,Importing Company,Indra Traders,Toyota,Land Cruiser Prado,SUV,Diesel,2025-10-07,approved
+A048,1991-08-19,Vavuniya,1100000,1800000,120000,640,Vavuniya,Authorized Agent,TVS Lanka,TVS,NTORQ,Motorcycle,Petrol,2025-10-07,rejected
+A049,1999-02-22,Matara,3300000,4300000,170000,670,Matara,Personal Importer,Kasun Jayasuriya,Suzuki,Every,Van,Petrol,2025-10-08,rejected
+A050,1983-04-04,Chilaw,6800000,8200000,330000,760,Chilaw,Authorized Agent,AMW,Nissan,Leaf,Car,Electric,2025-10-08,approved
+A051,1993-11-20,Colombo,4500000,5800000,230000,710,Kollupitiya,Authorized Agent,Toyota Lanka,Toyota,Yaris Cross,SUV,Hybrid,2025-10-09,approved
+A052,1987-01-15,Kandy,2800000,3900000,160000,640,Kandy,Personal Importer,Saman Kumara,Suzuki,Wagon R,Car,Petrol,2025-10-09,rejected
+A053,1995-08-02,Gampaha,14000000,17000000,580000,820,Wattala,Importing Company,Sena Auto,Mercedes-Benz,EQA,SUV,Electric,2025-10-09,approved
+A054,1999-04-12,Galle,900000,1350000,95000,610,Galle,Authorized Agent,TVS Lanka,TVS,Raider 125,Motorcycle,Petrol,2025-10-10,rejected
+A055,1985-06-30,Negombo,7000000,8800000,350000,750,Negombo,Authorized Agent,Kia Motors Lanka,Kia,Seltos,SUV,Petrol,2025-10-10,approved
+A056,1991-09-18,Jaffna,5200000,6900000,260000,700,Jaffna,Importing Company,Indra Traders,Toyota,Raize,SUV,Petrol,2025-10-10,approved
+A057,1988-02-25,Colombo,8000000,10500000,400000,780,Nugegoda,Authorized Agent,Stafford Motors,Honda,HR-V,SUV,Hybrid,2025-10-11,approved
+A058,1996-07-07,Matara,3100000,4100000,155000,660,Matara,Personal Importer,Ayesha Maduwanthi,Honda,Fit,Car,Hybrid,2025-10-11,approved
+A059,1984-12-01,Kurunegala,6500000,8000000,310000,730,Kurunegala,Authorized Agent,AMW,Suzuki,Grand Vitara,SUV,Hybrid,2025-10-11,approved
+A060,1992-05-14,Trincomalee,3800000,5000000,190000,680,Trincomalee,Importing Company,United Motors,DFSK,Glory 580,SUV,Petrol,2025-10-12,approved
+A061,2001-03-22,Colombo,12000000,15000000,500000,800,Rajagiriya,Authorized Agent,Hyundai Lanka,Hyundai,Ioniq 5,SUV,Electric,2025-10-12,approved
+A062,1989-10-10,Badulla,2900000,3800000,140000,620,Badulla,Personal Importer,Rohan Bandara,Toyota,Vitz,Car,Petrol,2025-10-12,rejected
+A063,1997-06-05,Anuradhapura,4800000,6000000,240000,720,Anuradhapura,Authorized Agent,Toyota Lanka,Toyota,Avanza,Van,Petrol,2025-10-13,approved
+A064,1986-08-28,Kandy,19000000,23000000,750000,850,Kandy,Authorized Agent,Prestige Automobile,BMW,X3,SUV,Diesel,2025-10-13,approved
+A065,1994-01-19,Colombo,9500000,11500000,450000,790,Dehiwala,Importing Company,Sena Auto,MG,HS,SUV,Hybrid,2025-10-13,approved
+A066,1982-04-09,Moratuwa,4000000,5300000,200000,690,Moratuwa,Importing Company,Ideal Motors,Mahindra,XUV300,SUV,Petrol,2025-10-14,approved
+A067,1998-09-03,Gampaha,1000000,1600000,110000,630,Gampaha,Authorized Agent,David Pieris Motor,Bajaj,CT 100,Motorcycle,Petrol,2025-10-14,rejected
+A068,1990-11-26,Ratnapura,6000000,7800000,300000,740,Ratnapura,Authorized Agent,Kia Motors Lanka,Kia,Sonet,SUV,Petrol,2025-10-14,approved
+A069,1983-07-16,Nuwara Eliya,5500000,7100000,280000,710,Nuwara Eliya,Importing Company,Indra Traders,Toyota,CHR,SUV,Hybrid,2025-10-15,approved
+A070,2000-02-08,Kalutara,9000000,12000000,420000,770,Kalutara,Authorized Agent,BYD Lanka,BYD,Atto 3,SUV,Electric,2025-10-15,approved
+A071,1995-12-11,Colombo,3300000,4200000,170000,670,Borella,Personal Importer,Fathima Ali,Perodua,Axia,Car,Petrol,2025-10-15,approved
+A072,1981-05-21,Matale,7200000,9000000,360000,760,Matale,Authorized Agent,Stafford Motors,Honda,Vezel,SUV,Hybrid,2025-10-16,approved
+A073,1993-10-01,Galle,2600000,3500000,120000,600,Galle,Personal Importer,Kavinda Perera,Suzuki,Alto,Car,Petrol,2025-10-16,rejected
+A074,1988-03-17,Batticaloa,8000000,10000000,390000,780,Batticaloa,Importing Company,United Motors,Mitsubishi,Outlander,SUV,Hybrid,2025-10-16,approved
+A075,1996-09-29,Colombo,4000000,5000000,200000,690,Wellawatte,Authorized Agent,AMW,Nissan,Magnite,SUV,Petrol,2025-10-17,approved
+A076,1980-06-04,Panadura,17000000,21000000,680000,840,Panadura,Authorized Agent,Prestige Automobile,Audi,Q3,SUV,Petrol,2025-10-17,approved
+A077,1991-08-13,Kegalle,3500000,4800000,180000,650,Kegalle,Importing Company,Sena Auto,Proton,Saga,Car,Petrol,2025-10-17,rejected
+A078,1999-01-23,Ampara,4200000,5500000,210000,700,Ampara,Authorized Agent,Toyota Lanka,Toyota,Raum,Van,Petrol,2025-10-18,approved
+A079,1985-11-06,Kandy,6800000,8500000,340000,750,Peradeniya,Importing Company,Indra Traders,Toyota,Premio,Car,Petrol,2025-10-18,approved
+A080,1992-02-18,Colombo,10500000,13000000,480000,810,Mount Lavinia,Authorized Agent,Hyundai Lanka,Hyundai,Elantra,Car,Hybrid,2025-10-18,approved
+A081,1987-04-30,Vavuniya,1200000,1900000,125000,640,Vavuniya,Authorized Agent,David Pieris Motor,Bajaj,Platina,Motorcycle,Petrol,2025-10-19,rejected
+A082,1994-10-22,Polonnaruwa,4500000,6000000,225000,710,Polonnaruwa,Authorized Agent,Kia Motors Lanka,Kia,Picanto,Car,Petrol,2025-10-19,approved
+A083,1989-07-01,Colombo,8800000,11000000,430000,790,Nawala,Importing Company,Sena Auto,Haval,H6,SUV,Hybrid,2025-10-19,approved
+A084,1997-03-14,Chilaw,2400000,3300000,115000,590,Chilaw,Personal Importer,Nadeesha Fernando,Suzuki,Every,Van,Petrol,2025-10-20,rejected
+A085,1983-09-08,Gampaha,15000000,18500000,620000,830,Ja-Ela,Authorized Agent,BYD Lanka,BYD,Seal,Car,Electric,2025-10-20,approved
+A086,1990-12-25,Matara,5000000,6500000,250000,720,Matara,Authorized Agent,AMW,Suzuki,Fronx,SUV,Petrol,2025-10-20,approved
+A087,1995-05-05,Kandy,3000000,4000000,150000,660,Katugastota,Personal Importer,Imran Ahmed,Toyota,Aqua,Car,Hybrid,2025-10-21,rejected
+A088,1986-02-11,Colombo,22000000,26000000,850000,850,Colombo,Authorized Agent,Prestige Automobile,Mercedes-Benz,E-Class,Car,Diesel,2025-10-21,approved
+A089,1993-08-19,Galle,6300000,8000000,320000,730,Galle,Importing Company,Ideal Motors,SsangYong,Rexton,SUV,Diesel,2025-10-21,approved
+A090,1998-11-09,Jaffna,3600000,4800000,185000,680,Jaffna,Authorized Agent,Toyota Lanka,Toyota,Vios,Car,Petrol,2025-10-22,approved
+A091,1984-06-23,Colombo,7500000,9500000,370000,770,Kotte,Authorized Agent,Stafford Motors,Honda,CR-V,SUV,Petrol,2025-10-22,approved
+A092,1996-10-16,Negombo,4100000,5100000,195000,630,Negombo,Personal Importer,Shiromi Jayakody,Mitsubishi,Mirage,Car,Petrol,2025-10-22,rejected
+A093,1981-01-07,Kandy,13000000,16000000,550000,800,Kandy,Importing Company,Indra Traders,Toyota,Fortuner,SUV,Diesel,2025-10-23,approved
+A094,1992-09-04,Kalutara,9800000,12500000,460000,790,Kalutara,Authorized Agent,Kia Motors Lanka,Kia,EV6,SUV,Electric,2025-10-23,approved
+A095,1987-05-18,Colombo,2800000,3600000,140000,650,Pannipitiya,Personal Importer,Charith Asalanka,Perodua,Bezza,Car,Petrol,2025-10-23,rejected
+A096,1994-07-27,Gampaha,5500000,7000000,270000,710,Kadawatha,Authorized Agent,Hyundai Lanka,Hyundai,Venue,SUV,Petrol,2025-10-24,approved
+A097,1988-10-31,Badulla,8000000,10200000,410000,780,Badulla,Importing Company,United Motors,Mitsubishi,Pajero Sport,SUV,Diesel,2025-10-24,approved
+A098,1997-02-01,Anuradhapura,1000000,1550000,105000,620,Anuradhapura,Authorized Agent,TVS Lanka,TVS,Apache,Motorcycle,Petrol,2025-10-24,rejected
+A099,1985-08-08,Colombo,16000000,20000000,650000,820,Cinnamon Gardens,Authorized Agent,BYD Lanka,BYD,Han,Car,Electric,2025-10-25,approved
+A100,1991-04-16,Trincomalee,4900000,6400000,245000,700,Trincomalee,Authorized Agent,AMW,Nissan,Kicks,SUV,Petrol,2025-10-25,approved
+A101,1990-03-10,Colombo,18000000,22000000,700000,830,Bambalapitiya,Importing Company,Sena Auto,Audi,A6,Car,Diesel,2025-10-26,approved
+A102,1996-05-22,Gampaha,3000000,4100000,145000,640,Kelaniya,Personal Importer,Mahesh Gunathilaka,Suzuki,Wagon R,Car,Petrol,2025-10-26,rejected
+A103,1985-09-01,Kandy,8500000,11000000,420000,780,Kandy,Authorized Agent,Toyota Lanka,Toyota,RAV4,SUV,Hybrid,2025-10-26,approved
+A104,1992-11-14,Galle,4800000,6200000,230000,710,Galle,Importing Company,Indra Traders,Honda,Vezel,SUV,Hybrid,2025-10-27,approved
+A105,2001-01-30,Jaffna,950000,1400000,100000,610,Jaffna,Authorized Agent,David Pieris Motor,Bajaj,Pulsar NS200,Motorcycle,Petrol,2025-10-27,rejected
+A106,1988-07-25,Negombo,11000000,14000000,500000,800,Negombo,Authorized Agent,Kia Motors Lanka,Kia,EV6,SUV,Electric,2025-10-27,approved
+A107,1994-04-12,Matara,5000000,6500000,250000,720,Matara,Authorized Agent,AMW,Nissan,Magnite,SUV,Petrol,2025-10-28,approved
+A108,1983-02-05,Colombo,9000000,12000000,450000,790,Nugegoda,Importing Company,Ideal Motors,Mahindra,XUV700,SUV,Diesel,2025-10-28,approved
+A109,1997-08-18,Kurunegala,2500000,3400000,125000,630,Kurunegala,Personal Importer,Chamari Atapattu,Toyota,Vitz,Car,Petrol,2025-10-28,rejected
+A110,1989-12-08,Trincomalee,6000000,7500000,300000,740,Trincomalee,Authorized Agent,Stafford Motors,Honda,BR-V,Van,Petrol,2025-10-29,approved
+A111,1995-06-20,Badulla,3800000,5000000,190000,680,Badulla,Importing Company,United Motors,Mitsubishi,Attrage,Car,Petrol,2025-10-29,approved
+A112,1986-10-03,Colombo,15000000,19000000,600000,820,Rajagiriya,Authorized Agent,Prestige Automobile,Mercedes-Benz,C-Class,Car,Hybrid,2025-10-29,approved
+A113,1999-03-27,Anuradhapura,4200000,5500000,210000,700,Anuradhapura,Authorized Agent,Toyota Lanka,Toyota,Corolla Cross,SUV,Hybrid,2025-10-30,approved
+A114,1984-01-15,Kandy,7000000,8800000,350000,750,Kandy,Importing Company,Sena Auto,Haval,Jolion,SUV,Hybrid,2025-10-30,approved
+A115,1991-09-09,Moratuwa,12500000,15500000,550000,810,Moratuwa,Authorized Agent,Hyundai Lanka,Hyundai,Kona,SUV,Electric,2025-10-30,approved
+A116,1998-05-13,Gampaha,3200000,4200000,160000,670,Wattala,Personal Importer,Dilshan Maduranga,Suzuki,Swift,Car,Petrol,2025-10-31,approved
+A117,1987-11-28,Ratnapura,5500000,7000000,280000,730,Ratnapura,Authorized Agent,Kia Motors Lanka,Kia,Sportage,SUV,Petrol,2025-10-31,approved
+A118,1993-08-04,Nuwara Eliya,8000000,10000000,400000,770,Nuwara Eliya,Importing Company,Indra Traders,Toyota,Land Cruiser Prado,SUV,Diesel,2025-10-31,approved
+A119,1982-04-19,Kalutara,2900000,3800000,135000,620,Kalutara,Personal Importer,Nishantha Perera,Honda,Fit,Car,Hybrid,2025-11-01,rejected
+A120,2000-02-14,Colombo,10000000,13000000,480000,790,Dehiwala,Authorized Agent,BYD Lanka,BYD,Atto 3,SUV,Electric,2025-11-01,approved
+A121,1996-07-07,Matale,4000000,5300000,200000,690,Matale,Authorized Agent,AMW,Suzuki,Celerio,Car,Petrol,2025-11-01,approved
+A122,1981-06-12,Galle,6500000,8200000,330000,760,Galle,Importing Company,Sena Auto,MG,ZS,SUV,Petrol,2025-11-02,approved
+A123,1994-10-29,Batticaloa,3500000,4500000,175000,660,Batticaloa,Authorized Agent,TVS Lanka,TVS,Apache RTR 200,Motorcycle,Petrol,2025-11-02,rejected
+A124,1988-01-01,Panadura,20000000,25000000,800000,850,Panadura,Authorized Agent,Prestige Automobile,BMW,iX,SUV,Electric,2025-11-02,approved
+A125,1997-09-17,Kegalle,4500000,5800000,220000,700,Kegalle,Importing Company,United Motors,Mitsubishi,Xpander Cross,SUV,Petrol,2025-11-03,approved
+A126,1985-03-03,Ampara,5800000,7200000,290000,730,Ampara,Authorized Agent,Toyota Lanka,Toyota,Hiace,Van,Diesel,2025-11-03,approved
+A127,1992-12-20,Colombo,3600000,4800000,180000,650,Wellawatte,Personal Importer,Ravi Shankar,Perodua,Axia,Car,Petrol,2025-11-03,rejected
+A128,1980-08-14,Kandy,9500000,12500000,470000,800,Peradeniya,Authorized Agent,Hyundai Lanka,Hyundai,Tucson,SUV,Diesel,2025-11-04,approved
+A129,1995-11-02,Vavuniya,5000000,6400000,240000,710,Vavuniya,Importing Company,Indra Traders,Toyota,Raize,SUV,Petrol,2025-11-04,approved
+A130,1987-06-24,Polonnaruwa,7000000,8500000,340000,750,Polonnaruwa,Authorized Agent,Stafford Motors,Honda,Civic,Car,Petrol,2025-11-04,approved
+A131,1999-01-08,Chilaw,2200000,3100000,110000,580,Chilaw,Personal Importer,Sameera Silva,Suzuki,Alto K10,Car,Petrol,2025-11-05,rejected
+A132,1986-09-15,Gampaha,14000000,17500000,580000,820,Ja-Ela,Authorized Agent,BYD Lanka,BYD,Seal,Car,Electric,2025-11-05,approved
+A133,1993-04-05,Colombo,6200000,7800000,310000,740,Kotte,Authorized Agent,Kia Motors Lanka,Kia,Seltos,SUV,Petrol,2025-11-05,approved
+A134,1982-10-18,Matara,3000000,4000000,150000,660,Matara,Importing Company,Ideal Motors,Mahindra,KUV100,Car,Petrol,2025-11-06,approved
+A135,1991-02-23,Jaffna,8000000,10000000,390000,770,Jaffna,Authorized Agent,AMW,Nissan,Leaf,Car,Electric,2025-11-06,approved
+A136,1998-06-09,Kandy,1100000,1700000,115000,630,Katugastota,Authorized Agent,David Pieris Motor,Bajaj,Dominar 400,Motorcycle,Petrol,2025-11-06,rejected
+A137,1989-08-01,Galle,9000000,11500000,440000,790,Galle,Importing Company,Sena Auto,Mercedes-Benz,GLA,SUV,Petrol,2025-11-07,approved
+A138,1994-12-11,Negombo,4500000,5900000,225000,700,Negombo,Authorized Agent,Toyota Lanka,Toyota,Aqua,Car,Hybrid,2025-11-07,approved
+A139,1985-07-06,Colombo,17000000,21000000,680000,840,Kollupitiya,Authorized Agent,Prestige Automobile,Audi,Q5,SUV,Hybrid,2025-11-07,approved
+A140,1996-10-21,Kurunegala,3700000,4900000,185000,680,Kurunegala,Personal Importer,Aruni Rajapaksa,Honda,Grace,Car,Hybrid,2025-11-08,approved
+A141,2000-04-03,Gampaha,5500000,7000000,275000,720,Kadawatha,Authorized Agent,Hyundai Lanka,Hyundai,Venue,SUV,Petrol,2025-11-08,approved
+A142,1987-03-16,Badulla,2700000,3600000,120000,610,Badulla,Personal Importer,Mohamed Riaz,Suzuki,Every,Van,Petrol,2025-11-08,rejected
+A143,1992-09-28,Kandy,7500000,9500000,370000,760,Kandy,Importing Company,Indra Traders,Toyota,CHR,SUV,Hybrid,2025-11-09,approved
+A144,1983-12-04,Colombo,6000000,7500000,300000,740,Mount Lavinia,Authorized Agent,Stafford Motors,Honda,CR-V,SUV,Petrol,2025-11-09,approved
+A145,1990-11-19,Trincomalee,8500000,11000000,430000,780,Trincomalee,Authorized Agent,Kia Motors Lanka,Kia,Carnival,Van,Diesel,2025-11-09,approved
+A146,1997-05-24,Ratnapura,4000000,5200000,195000,690,Ratnapura,Importing Company,Sena Auto,Proton,X50,SUV,Petrol,2025-11-10,approved
+A147,1988-02-13,Anuradhapura,13000000,16500000,560000,810,Anuradhapura,Authorized Agent,Toyota Lanka,Toyota,Fortuner,SUV,Diesel,2025-11-10,approved
+A148,1994-08-26,Kalutara,3300000,4400000,165000,670,Kalutara,Personal Importer,Sachini Nirmani,Toyota,Passo,Car,Petrol,2025-11-10,rejected
+A149,1981-06-07,Colombo,25000000,30000000,950000,850,Cinnamon Gardens,Authorized Agent,Prestige Automobile,BMW,7 Series,Car,Hybrid,2025-11-11,approved
+A150,1995-10-10,Jaffna,5200000,6800000,260000,720,Jaffna,Importing Company,United Motors,DFSK,Glory i-Auto,SUV,Petrol,2025-11-11,approved
