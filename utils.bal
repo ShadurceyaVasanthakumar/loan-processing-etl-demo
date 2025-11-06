@@ -29,7 +29,13 @@ function categorizeIncome(decimal income) returns string {
     //  if income < 200K: Low
     //  if 200K <= income <= 300K: Medium
     //  if income > 300K: High
-    return High_Income;
+    if income < 200000d {
+        return Low_Income;
+    } else if income <= 300000d {
+        return Medium_Income;
+    } else {
+        return High_Income;
+    }
 }
 
 
@@ -40,7 +46,15 @@ function categorizeCredit(int score) returns string {
     // if 650 <= score < 700: Fair
     // if 700 <= score < 750: Good
     // if score >= 750: Excellent
-    return Excellent_Credit;
+    if score < 650 {
+        return Poor_Credit;
+    } else if score < 700 {
+        return Fair_Credit;
+    } else if score < 750 {
+        return Good_Credit;
+    } else {
+        return Excellent_Credit;
+    }
 }
 
 
@@ -50,7 +64,13 @@ function categorizeLoan(decimal amount) returns string {
     // if amount < 5M: Small
     // if 5M <= amount <= 10M: Medium
     // if amount > 10M: Large
-    return Large_Loan;
+    if amount < 5000000d {
+        return Small_Loan;
+    } else if amount <= 10000000d {
+        return Medium_Loan;
+    } else {
+        return Large_Loan;
+    }
 }
 
 function determineRiskCategory(int creditScore, decimal dti, decimal ltv) returns string {

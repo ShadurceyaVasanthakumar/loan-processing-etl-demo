@@ -1,3 +1,4 @@
+import ballerina/io;
 import ballerina/log;
 import ballerinax/h2.driver as _;
 import ballerinax/java.jdbc;
@@ -29,8 +30,9 @@ function extract() returns [Application[], ApprovedApplication[]]|error {
     // TODO: Implement CSV reading logic
     // Hint: https://ballerina.io/learn/by-example/io-csv-datamapping/
 
-    Application[] applications = [];
-    ApprovedApplication[] approvals = [];
+    Application[] applications = check io:fileReadCsv(applicationsFile);
+    ApprovedApplication[] approvals = check io:fileReadCsv(approvalsFile);
+
 
     log:printInfo("[Extract]: Completed data extraction from CSV files");
     return [applications, approvals];
@@ -119,20 +121,20 @@ function enrichApplications(Application[] applications, ApprovedApplication[] ap
         join ApprovedApplication approval in approvals on application.application_id equals approval.application_id
         select {
             application_id: application.application_id,
-            approver: "",
-            credit_score: 0,
-            total_price: 0,
-            city: "",
-            vehicle_model: "",
-            approved_on: "",
-            monthly_income: 0,
-            branch: "",
-            requested_amount: 0,
-            vehicle_brand: "",
-            dob: "",
-            fuel_type: "",
-            approved_amount: 0,
-            status: ""
+            dob: application.dob,
+            status: application.status,
+            city: application.city,
+            branch: application.branch,
+            requested_amount: application.amount,
+            approved_amount: approval.approved_amount,
+            total_price: application.total_price,
+            approver: approval.approver,
+            approved_on: approval.approved_on,
+            vehicle_brand: application.vehicle_brand,
+            vehicle_model: application.vehicle_model,
+            fuel_type: application.fuel_type,
+            credit_score: application.credit_score,
+            monthly_income: application.monthly_income
         };
 }
 
@@ -210,9 +212,14 @@ function aggregateBranchSummary(Application[] apps, ApprovedApplication[] approv
     map<decimal> totalApproved = {};
 
     // Count applications by branch
-    foreach var app in apps {
+     foreach var app in apps {
         totalApps[app.branch] = (totalApps[app.branch] ?: 0) + 1;
-        // TODO: Count approved and rejected applications
+        // Count approved and rejected applications
+        if app.status == "approved" {
+            approvedCount[app.branch] = (approvedCount[app.branch] ?: 0) + 1;
+        } else if app.status == "rejected" {
+            rejectedCount[app.branch] = (rejectedCount[app.branch] ?: 0) + 1;
+        }
     }
 
     // Sum approved amounts
@@ -267,6 +274,16 @@ function aggregateVehicleSummary(Application[] apps) returns VehicleSummary[] {
     // Hint: Iterate over vehicleStats map and populate summaries array
     // use regex to split the key into brand and fuel_type
     // https://central.ballerina.io/ballerina/lang.map/2201.12.7#entries
+    foreach var [key, stats] in vehicleStats.entries() {
+        // Split the key "brand|fuel_type" into separate parts
+        string[] parts = re `\|`.split(key);
+        summaries.push({
+            vehicle_brand: parts[0],
+            fuel_type: parts[1],
+            application_count: stats.count,
+            approved_count: stats.approved
+        });
+    }
     return summaries;
 }
 
